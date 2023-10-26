@@ -3,9 +3,7 @@ def fel1(szam):
     i: int = 0
     while i <= szam:
         if i % 3 == 0:
-            if i == szam:
-                print(i, end="")
-            elif i == szam-2 or i == szam-1:
+            if i == szam or i == szam-2 or i == szam-1:
                 print(i, end="")
             else:
                 print(i, end=",")
